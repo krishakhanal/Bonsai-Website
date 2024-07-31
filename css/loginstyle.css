@@ -1,0 +1,107 @@
+/* this is the universal selector */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* this the css for class contain */
+.contain
+{
+	width: 100%;
+	height: 790px;
+	background-color: linearg;
+}
+
+.form-box
+{
+	border-radius: 30px;
+	width: 90%;
+	max-width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: green;
+	padding: 60px 70px 200px;
+	text-align: center;
+}
+/* this is the css for class form-box h1 */
+.form-box h1
+{
+	font-size: 30px;
+	margin-bottom: 60px;
+	color: white;
+	position: relative;
+}
+
+
+.input-field
+{
+	background: #eaeaea;
+	margin: 15px 0;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	max-height: 65px;
+	transition: max-height 0.5s;
+	overflow: hidden;
+}
+/* this is the css for input */
+input{
+	width: 100%;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	padding: 15px 15px;
+}
+
+form p
+{
+	text-align: left;
+	font-size: 15px;
+	color: white;
+}
+
+form p a
+{
+	text-decoration: none;
+	color: greenyellow;
+}
+
+.btn-field
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-field button
+{
+	flex-basis: 40%;
+	background: greenyellow;
+	color: white;
+	height: 30px;
+	border-radius: 20px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	transition: background 1s;
+}
+
+.btn-field button a
+{
+	text-decoration: none;
+	color: white;
+}
+
+/* this is the css for class input-group */
+.input-group
+{
+	height: 230px; 
+}
+
+
+.btn-field button a:hover
+{
+	color: black;
+}

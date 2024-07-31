@@ -1,0 +1,169 @@
+/* this the css for whole body in the webpage */
+body{
+    background-color: white;
+}
+
+.blogsection{
+    background-color: bisque;
+    background-position: center;
+    height: 20px solid black ;
+    padding: 20px;
+    margin:20px auto;
+    color: black;
+    font-size: 120%;
+    }
+	/* this is the css for picture class */
+.picture{
+   float: right;
+    height:300px;
+    width : 200px;
+    margin :10px;
+    border-radius: 20px;
+    }
+.bonsai
+{
+    float: left;
+    height:170px;
+    width : 170px;
+    margin :10px;
+    border-radius: 20px; 
+}
+.blog 
+{
+    margin-bottom: 20px;
+    margin-top: 52px;
+   
+}
+.paragraph 
+{
+     border-left:  5px solid #2370a5;
+     padding-left: 5px;
+     
+     }
+	/* this is the css for heading two 
+ */
+ h2
+{
+   font-size: 28px; 
+   }
+/* this is the universal selector */
+   *{
+	font-family: sans-serif;
+}
+.footer_container
+{
+	display: flex;
+	background-color: black;
+	height: 400px;
+	border-radius: 40px;
+	align-items: center;
+}
+.footer1
+{
+	background-color: black;
+	width: 150px;
+	border-radius: 40px;
+	color: white;
+}
+.footer1 h2
+{
+	text-align: center;
+	margin:0px;
+	margin-bottom: 20px;
+}	
+.main_logo img
+{
+	width:100px ;
+	height:100px ;
+	margin: 0px;
+	margin-left: 20px;
+}
+.small_logos img
+{
+	padding-left: 50px;
+
+}
+
+
+.footer2
+{
+	background-color: black;
+	width: 150px;
+	text-align: center;
+	text-align: start;
+	color: white;
+	margin-left: 20px;
+
+}
+.footer2 h3
+{
+	color: dimgrey;
+}
+.footer2 a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.footer3
+{
+	background-color: black;
+	color: white;
+	border-radius: 40px;
+}
+.footer3 h3
+{
+	color: dimgrey;
+}
+.footer3 a 
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.footer4
+{
+	background-color: black;
+	color: white;
+	border-radius: 40px;
+	margin-left: 30px;
+}
+.footer4 h3
+{
+	color: dimgrey;
+}
+.footer4 a 
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.footer5
+{	
+	
+	display: none;
+}
+.footer6
+{
+	background-color: black;
+	color: dimgrey;
+	border-radius: 40px;
+	margin-left: 50px;
+	
+}
+.footer6 h3
+{
+	color: dimgrey;
+	
+}
+#esewa
+{
+	margin-left: 20px;
+}
+#phonepay
+{
+	margin-left: 20px;
+}
+
+
+

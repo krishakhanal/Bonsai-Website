@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<!-- this is the link for logo image  -->
+	<link rel="icon" href="../images/Logo.png">
+<head>
+		<!-- this is meta tag -->
+		<meta name="discription" content="SignUp">									
+		<meta name="keywords" content="html, css, javascript, bonsai ">
+		<meta name="author" content="Suyok , Abhijit, Arkimedij, Swapnil, Krisha">
+		<meta http-equiv="refresh" content="3">
+	<!-- this the link of css for this webpage -->
+	<link rel="stylesheet" type="text/css" href="../css/loginstyle.css">
+	<!-- this is the title of webpage -->
+	<title>
+		SignUp
+	</title>
+</head>
+<body>
+	<header>
+		<nav>
+			
+			<a href="Bonsai.html"><img src="../images/Logo.png" alt="" style="width: 80px; margin: 30px;"></a>
+		
+		</nav>
+	</header>
+		<div class="contain">
+
+			<div class="form-box">
+				<!-- id defines the unique identification -->
+				<h1 id="title">SignUp</h1>
+				<!-- this is the form validation -->
+				<form name="myform" onsubmit="validateform()">
+
+					<div class="input-group">
+
+						<div class="input-field" id="nameField">
+							<input type="text" name="name" placeholder="First Name">	
+						</div>
+
+						<div class="input-field">
+							<input name="email" type="emial" placeholder="Email">	
+						</div>
+						<div class="input-field">
+							<input type="name" name="username" placeholder="User Name">	
+						</div>
+
+						<div class="input-field">
+							<input type="passwrod" name="pass" placeholder="Password">	
+						</div>
+
+						<div class="input-field">
+							<input type="confirm-passwrod" name="conpass" placeholder="Confirm-Password">	
+						</div>
+
+						<p>Forgot Password <a href="#">Click Here!</a></p>
+						<div>
+						
+						
+					</div>
+					<br>
+					<div class="btn-field">
+						<button type="submit" id="signupBtn">Sign up</button>
+						<button type="button" id="LoginBtn"><a href="Login.html">Login</a></button>
+					</div>
+				</form>
+				
+			</div>
+		</div>
+		
+
+</body>
+	<!-- this is the javascript for the empty field  -->
+	<script type="text/javascript">
+
+	function validateform() 
+	{
+		var name = document.forms["myform"]["name"].value;
+		var email = document.forms["myform"]["email"].value;
+		var username = document.forms["myform"]["username"].value;
+		var pass = document.forms["myform"]["pass"].value;
+		var conpass = document.forms["myform"]["conpass"].value;
+		if (email=="" || pass=="" || name=="" || username=="" || conpass=="") 
+		{
+			alert("Empty Field Found!!");}
+		else
+		{
+			alert("Thank You!!");}
+
+	}
+	onsubmit="return validateform()";
+	</script>
+</html>
